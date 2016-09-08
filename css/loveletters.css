@@ -1,0 +1,451 @@
+/* universal styles */
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+.clearfix:after {
+	display: table;
+	content:" ";
+	clear: both;
+
+
+}
+
+/* global styles */
+.left {
+	float:left;
+}
+
+.right {
+	float: right;
+}
+
+
+.centerme {
+	align: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+
+p {
+	margin-bottom: 18px;
+}
+
+h1 {
+	font-size: 25pt;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-style: italic;
+}
+
+
+
+li {
+	margin-bottom: 10px;
+
+}
+
+
+
+
+ul li {
+	list-style-type: none;
+}
+
+ul li a {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+a:link {
+	color: rgba(0,0,0,1);
+}
+
+a:visited {
+	color: rgba(0,0,0,1);
+}
+
+a:hover {
+	color: rgba(255,255,255,1);
+}
+
+a:active {
+	color: rgba(0,0,0,1);
+}
+
+aside {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+}
+
+/*page styles*/
+
+
+/*BASH */
+
+.white {
+	background-color: white;
+}
+
+.bk2 {
+margin-left: -20px;
+margin-top: -200px;
+padding-bottom: 20px;
+
+
+}
+
+.bk22 {
+	margin-left: 260px;
+	margin-top: 10px;
+
+
+}
+
+h1 .bash{
+	font-size: 24pt;
+}
+
+h1 .shell {
+	font-size: 24pt;
+}
+
+
+
+
+.bashcontainer {
+	margin-top: 20px;
+	width: 600px;
+	background-color: rgba(180,180,180,.6);
+	float: left;
+	font-size: 16pt;
+	margin-left: 25px;
+	line-height: 125%;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-style: italic;
+	font-weight: lighter;
+	border: 8px rgba(255,0,255,1);
+	border-style: double;
+
+
+
+}
+.bashaside {
+	padding: 20px 20px 20px 20px;
+	padding-left:20px;
+	float: right;
+	margin-left: 650px;
+	margin-right: 50px;
+	margin-top: -538px;
+	border:8px solid rgba(230,248,255,1);
+	background-color: rgba(255,0,200,.3);
+	background-color: 
+}
+
+.man {
+	color: rgba(208,32,144,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+
+	;
+}
+
+.bash {
+	color: rgba(220,20,60,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.shell {
+	color: rgba(255,240,245,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.space {
+	color: rgba(139,71,93,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.q {
+	color: rgba(255,0,0,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.pwd {
+	color: rgba(255,62,150,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.ls {
+	color: rgba(139,58,98,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.lsla {
+
+	color: rgba(200,58,98,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+
+}
+
+.cd {
+	color: rgba(218,112,31,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.cdd {
+	color: rgba(255,131,250,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.mkdir {
+	color: rgba(221,160,221,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.touch {
+	color: rgba(205,0,0,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+
+/*GIT*/
+
+.background {
+	background-color: rgba(255,0,255,.1);
+}
+
+.gitcontainer {
+	width: 600px;
+	background-color: rgba(255,255,255,1);
+	margin-left: 250px;
+	float: right;
+	font-size: 15.5pt;
+	padding-left:20px;
+	padding-right: 20px;
+	padding-top: 20px
+	line-height: 140%;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-style: italic;
+	font-weight: lighter;
+	border: 9px solid rgba(255,62,150,1);
+	border-style: dotted;
+	margin-top: 20px;
+	margin-right: 63px;
+
+
+
+
+
+}
+
+.line-separator{
+
+height:2px;
+background: red;
+margin-top: 0px;
+margin-left: -50px
+
+
+
+
+
+}
+
+.bk3 {
+	margin-top: -200px;
+	margin-left: 30px;
+	width: 100px;
+	height:100px;
+}
+
+
+.gitaside {
+	width: 450px;
+	float: left;
+	margin-right: 500px;
+	margin-left: 0px;
+	margin-top:-500px;
+	background-color: rgba(255,255,255,1);
+	padding-left: 20px;
+	padding-right: 0px;
+	padding-top: -0px;
+	padding-bottom: -20px;
+
+
+
+}
+
+
+h1 .git {
+	font-size: 32pt;
+}
+
+
+.git {
+	color: rgba(139,58,98,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.gitinit {
+	color: rgba(176,23,31,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.status {
+	color: rgba(139,58,98,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.gitadd {
+	color: rgba(220,20,60,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.gitc {
+	color: rgba(255,62,150,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+.checkout {
+	color: rgba(205,0,0,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 12pt;
+}
+
+
+
+
+
+/*GITHUB */
+
+body {
+	background-color: grey;
+}
+
+.githubcontainer {
+	margin-left: 60px;
+	width: 600px;
+	background-color: rgba(230,248,255,1);
+	font-size: 15.5pt;
+	line-height: 140%;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-style: italic;
+	font-weight: lighter;
+	padding: 2px 10px 10px 14px;
+/*	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-right: 250px;*/
+	margin-top: 150px;
+	border: solid 20px rgba(255,131,250,1);
+	float: left;
+
+
+	
+}
+
+h1 .github {
+	font-size: 20pt;
+
+}
+
+h1 .githubcontainer {
+	font-size: 15pt;
+
+}
+
+
+.githubaside {
+	width: 370px;
+	align: center;
+	margin-right: 83px;
+	font-size: 10pt;
+	margin-top: 155px;
+	float: right;
+	background-color:  rgba(255,255,255,.7);
+	margin-left: -30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: solid 1px black;
+
+
+}
+
+
+
+.github {
+	color: rgba(200,71,93,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 14pt;
+}
+
+.setup {
+	color: rgba(200,58,200,.5);
+	font-family:'Source Code Pro', monospace;
+	font-size: 14pt;
+
+}
+
+.push {
+	color: rgba(139,0,139,1);
+	font-family:'Source Code Pro', monospace;
+	font-size: 14pt;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
